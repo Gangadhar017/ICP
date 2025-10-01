@@ -2,7 +2,7 @@ package Assignment4;
 
 import java.util.Arrays;
 
-public class PermutationinString {
+public class PermutationInString {
 
     public static boolean checkInclusion(String s1, String s2) {
         int[] freq1 = new int[26];
