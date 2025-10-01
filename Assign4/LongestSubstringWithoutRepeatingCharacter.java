@@ -6,8 +6,8 @@ public class LongestSubstringWithoutRepeatingCharacters {
         HashMap<Character, Integer> map = new HashMap<>();
         int left = 0, maxLength = 0;
         // Sliding window approach lagayenge
-        // Jab tak right pointer aage badhta hai, tab tak hum character ko set mein dalte rahenge
-        // Agar character already set mein hai, toh hum left pointer ko aage badhate rahenge
+        // Jab tak right pointer aage badhta hai, tab tak hum character ko hmap mein dalte rahenge
+        // Agar character already map mein hai, toh hum left pointer ko aage badhate rahenge
         // Jab tak duplicate character milta hai, tab tak left pointer ko aage badhate rahenge
         // Har step par maxLength ko update karte rahenge
         for (int right = 0; right < s.length(); right++) {
